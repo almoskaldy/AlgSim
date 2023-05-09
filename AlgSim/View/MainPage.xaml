@@ -5,7 +5,10 @@
     <ContentPage.MenuBarItems>
         <MenuBarItem Text="Elemi tételek">
             <MenuFlyoutItem Text="Összegzés" Command="{Binding Sum}"></MenuFlyoutItem>
-            <MenuFlyoutItem Text="Eldöntés" Command="{Binding Decision}"></MenuFlyoutItem>
+            <MenuFlyoutItem Text="Eldöntés" Command="{Binding Eldontes}"></MenuFlyoutItem>
+            <MenuFlyoutItem Text="Kiválasztás" Command="{Binding Kivalasztas}"></MenuFlyoutItem>
+            <MenuFlyoutItem Text="Keresés" Command="{Binding Kereses}"></MenuFlyoutItem>
+            <MenuFlyoutItem Text="Megszámolás" Command="{Binding Megszamolas}"></MenuFlyoutItem>
         </MenuBarItem>
         <MenuBarItem Text="Összetett tételek">
             <MenuFlyoutItem Text="Másolás" Command="{Binding DisplayMessage}"></MenuFlyoutItem>

@@ -63,6 +63,33 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="View\Eldontes_Page.xaml.cs">
+	    <DependentUpon>Eldontes_Page.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="View\Kivalasztas_Page.xaml.cs">
+	    <DependentUpon>Kivalasztas_Page.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="View\Kereses_Page.xaml.cs">
+	    <DependentUpon>Kereses_Page.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="View\Megszamolas_Page.xaml.cs">
+	    <DependentUpon>Megszamolas_Page.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="View\Eldontes_Page.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\Kivalasztas_Page.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\Kereses_Page.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\Megszamolas_Page.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="View\Sum_Page.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
